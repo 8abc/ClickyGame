@@ -1,0 +1,21 @@
+#whiteText {
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+.narbar {
+  width: 100%;
+  font-size: 2rem;
+  color: #2a77ae;
+  margin-bottom: 10px;
+}
+
+.title {
+  float: left;
+}
+
+.scores {
+  float: right;
+}

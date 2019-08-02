@@ -1,9 +1,8 @@
 import React from "react";
+import "./style.css";
 
-const Footer = () => {
-  <footer>
-    <h3>This is the footer</h3>
-  </footer>;
-};
+const Footer = () => (
+  <div className="footer text-center bg-dark">© 2019 ABC</div>
+);
 
 export default Footer;

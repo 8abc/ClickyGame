@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/bob.png",
+    "name": "Bob"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/jimmy.png",
+    "name": "Jimmy"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/jimmyjr.png",
+    "name": "Jimmy Jr"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/linda.png",
+    "name": "Linda"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/louise.png",
+    "name": "Louise"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/louisetoy.png",
+    "name": "Louise's Toy"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/teddy.png",
+    "name": "Teddy"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/tina.png",
+    "name": "Tina"
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/eugene.png",
+    "name": "Eugene"
+  }
+]
