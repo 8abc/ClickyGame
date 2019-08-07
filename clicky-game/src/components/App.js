@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Card from "./Card";
 import Navbar from "./Navbar";
-import Container from "./Container";
-// import Footer from "./Footer";
+import Jumbotron from "./Jumbotron";
+import Wrapper from "./Wrapper";
+import Footer from "./Footer";
 import cards from "./cards.json";
 
 class App extends Component {
@@ -46,10 +47,11 @@ class App extends Component {
   //  map over this.state.card and render a card component for each card object
   render() {
     return (
-      <Container>
+      <Wrapper>
         <Navbar score={this.state.score} highscore={this.state.highscore}>
           Clicky Game
         </Navbar>
+        <Jumbotron />
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
@@ -58,7 +60,8 @@ class App extends Component {
             image={card.image}
           />
         ))}
-      </Container>
+        <Footer />
+      </Wrapper>
     );
   }
 }
