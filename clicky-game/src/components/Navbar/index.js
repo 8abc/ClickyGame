@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const Navbar = prop => (
+const Navbar = props => (
   <div className="navbar">
-    {/* <div className="title">{props.children}</div> */}
-    <div className="scores">Score: | Highscore:</div>
+    <div className="title">{props.children}</div>
+    <div className="scores">
+      Score: {props.score} | Highscore: {props.highscore}
+    </div>
   </div>
 );
 
