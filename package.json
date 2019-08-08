@@ -1,7 +1,7 @@
 {
   "name": "clicky-game",
   "version": "0.1.0",
-  "homepage": "https://github.com/8abc/ClickyGame",
+  "homepage": "https://8abc.github.io/ClickyGame",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.0",
